@@ -1,0 +1,156 @@
+
+.mynavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.myul_1 {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.myul_1 li {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    padding-bottom: 4px;
+    transition: border-color 0.3s ease, transform 0.2s ease-in-out;
+    border-color: black;
+}
+
+.myul_1 li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.myul_1 li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-width: 2px;
+    border-radius: 3px;
+    transform: scale(1.2);
+    border-color: rgba(0, 0, 0, 0.651);
+    color: rgba(0, 0, 0, 0.76);
+
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+    right: 5%;
+    position: absolute;
+    margin: 0 10px;
+    color: black;
+}
+
+.cart a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    right: 15%;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 30px;
+    padding: 10px 38px;
+    transition: transform 0.1s ease;
+    background-color: white;
+    color: #454545;
+    border: 1px solid #454545;
+    font-size: 15px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.btn:active {
+    background-color: #878787;
+    transition: 0.4s;
+}
+
+.btn a:hover {
+    color: #454545;
+}
+
+
+.logo {
+    left: 10%;
+    position: absolute;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 126px;
+    height: 74px;
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .myul_1 {
+        margin-left: 100px;
+    }
+
+    .myul_1 li {
+        color: rgba(255, 0, 13, 0.712);
+        font-size: 15px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .mynavbar {
+        display: flex;
+        justify-content: left;
+        height: 40px;
+    }
+
+    .btn {
+        right: 2%;
+        width: auto;
+        font-size: 10px;
+        right: 60px;
+        padding: 5px 20px;
+
+    }
+
+    .cart {
+        right: 0;
+        width: 40px;
+        height: 20px;
+        font-size: 10px;
+
+    }
+
+    .logo {
+        left: 0;
+        width: 45px;
+        height: 20px;
+        font-size: 10px;
+        margin-right: 30px !important;
+    }
+}

@@ -1,0 +1,17 @@
+.myfooter {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    .myfooter {
+        font-size: 15px;
+    }
+}
