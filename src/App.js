@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Nav/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
 // import { Footer } from './components/Nav/Footer';
-import Shop from  "./components/js/Shop"
-import Men from   "./components/js/Men"
-import Women from "./components/js/Women"
-import Kids from  "./components/js/Kids"
-import Login from "./components/js/Login"
-import Cart from  "./components/js/Cart"
+import Shop from  "./components/Pages/Shop"
+import Men from   "./components/Pages/Men"
+import Women from "./components/Pages/Women"
+import Kids from  "./components/Pages/Kids"
+import Login from "./components/Pages/Login"
+import Cart from  "./components/Pages/Cart"
 
 function App() {
 
