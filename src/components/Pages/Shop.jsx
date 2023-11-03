@@ -1,7 +1,10 @@
 import React from "react";
 import "./shop_style.css";
-import Popular_item from "../Popular/Popular";
+import Popular from "../Popular/Popular";
 import Banner1 from "../Banner/Banner1";
+import Popular2 from "../Popular2/Popular2"
+import NewsLetter from "../NewsLetter/NewsLetter"
+import Footer from '../Footer/Footer'
 const Shop = () => {
     return (
         <div className="myshop">
@@ -18,8 +21,11 @@ const Shop = () => {
             </div>
 
             {/*second part */}
-           <Popular_item/>
+           <Popular/>
            <Banner1/>
+           <Popular2/>
+           <NewsLetter/>
+           <Footer/>
         </div>
     );
 };
