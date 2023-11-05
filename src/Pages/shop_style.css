@@ -1,6 +1,6 @@
 /*    linear-gradient(180deg, #fde1ff, #e1ffea22, 60%);*/
 .back_img {
-    background: url("../images/wall5.jpg") no-repeat;
+    background: url("../components/images/wall5.jpg") no-repeat;
     background-size: cover;
     height: auto;
     width: 100%;
