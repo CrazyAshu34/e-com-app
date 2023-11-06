@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons'; // Example of importing the user icon
+import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
 import logo from "../images/logo.png";
 import "./Navbar.css";
 export const Navbar = () => {
