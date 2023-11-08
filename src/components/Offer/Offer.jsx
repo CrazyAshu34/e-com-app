@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 import "./offer_style.css";
+import {Link} from "react-router-dom"
 // ChildComponent of Popular_Item  ..........
-// It's like a Picture cart
 const Offer = (props) => {
   return (
     <div>
       <div className="item">
-        <img src={props.image} alt="" />
+        <Link to={`/product/${props.id}`}>
+          <img src={props.image} alt="" />
+        </Link>
         <p>{props.name}</p>
         <div className="item_price">
-            <div className="new_price">{props.new_price}</div>
-            <div className="old_price">{props.old_price}</div>
+          <div className="new_price">{props.new_price}</div>
+          <div className="old_price">{props.old_price}</div>
         </div>
       </div>
     </div>
@@ -18,4 +20,3 @@ const Offer = (props) => {
 };
 
 export default Offer;
-

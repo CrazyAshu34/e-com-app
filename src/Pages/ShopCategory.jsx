@@ -32,7 +32,7 @@ const ShopCategory = (props) => {
 							old_price={item.old_price}
 							new_price={item.new_price}
 						/>;
-					}
+					} return null
 				})}
 			</div>
 			<div className="shopcategory_loadmore">Explore More</div>
