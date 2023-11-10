@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 // ChildComponent of Popular_Item  ..........
 const Offer = (props) => {
   return (
-    <div>
+    <div> 
       <div className="item">
         <Link to={`/product/${props.id}`}>
           <img src={props.image} alt="" />

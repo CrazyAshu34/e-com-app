@@ -12,7 +12,7 @@
 	display: flex;
 	gap: 17px;
 }
-
+ 
 .productdisplay_img_list {
 	display: flex;
 	flex-direction: column;
@@ -80,19 +80,21 @@
 
 .productdisplay_right_sizes {
 	display: flex;
-	margin: 30px 0px;
+	margin: 30px 0;
 	gap: 20px;
 }
-.productdisplay_right_size{
-	width: auto;
-}
+/* .productdisplay_right_size{
+} */
 
 .productdisplay_right_size div {
+	text-align: center;
 	padding: 15px 20px;
 	background: #fbfbfb;
 	border: 1px solid #ebebeb;
 	border-radius: 3px;
 	cursor: pointer;
+	width: 90%;
+
 }
 
 .productdisplay_right button {

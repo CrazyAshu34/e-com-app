@@ -1,0 +1,26 @@
+.main-box {
+    margin: 0 80px;
+    margin-bottom: 100px;
+}
+
+.mycontainer {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    border: 1px solid #969696;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.description-box {
+    padding-left: 10px;
+    border: 1px solid #969696;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+.review{
+    font-weight: 400;
+}
