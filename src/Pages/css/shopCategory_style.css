@@ -41,6 +41,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	row-gap: 80px;
+	grid-gap: 14px
 }
 
 .shopcategory_loadmore{

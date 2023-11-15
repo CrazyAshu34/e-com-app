@@ -3,7 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
 import logo from "../images/logo.png";
 import "./Navbar.css";
+import { useContext } from 'react';
+import { ShopContext } from '../../Context/ShopContext';
+
 export const Navbar = () => {
+    const { getTotalCartItems } = useContext(ShopContext);
     return (
         <div className="mynavbar">
             <div className="box_1">
@@ -17,7 +21,12 @@ export const Navbar = () => {
             <div className="nav-icons">
                 <img className="logo" src={logo} alt="logo" />
                 <button className="btn"><Link to="/Login">Login</Link></button>
-                <div className="cart"><Link to="/Cart"><FontAwesomeIcon icon={faCartArrowDown} /></Link></div>
+                <div className="cart">
+                    <Link to="/Cart">
+                        <FontAwesomeIcon icon={faCartArrowDown} />
+                        <div className="nav-cart-count">{getTotalCartItems()}</div>
+                    </Link>
+                </div>
             </div>
         </div>
     );

@@ -4,10 +4,11 @@
     align-items: center;
     flex-direction: row;
     width: 65%;
-    height: 60vh;
+    height: 260px;
     padding: 0 140px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 111px;
+    margin-top:0;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
 
@@ -28,7 +29,7 @@
 
 .offer_left p {
     color: #171717;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -53,8 +54,8 @@
     padding-top: 50px;
 }
 
-.offer_right img{
-    height:50%;
+.offer_right img {
+    height: 50%;
     width: 50%;
 }
 
