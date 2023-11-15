@@ -47,18 +47,18 @@ const ShopContextProvider = (props) => {
     }
     return totalAmount; // Move this line outside of the loop
   }
-  
-  const getTotalCartItems = () =>{
+
+  const getTotalCartItems = () => {
     let totalItem = 0;
-    for(const item in CurrentCartState){
-      if(CurrentCartState[item]>0){
-          totalItem += CurrentCartState[item];
+    for (const item in CurrentCartState) {
+      if (CurrentCartState[item] > 0) {
+        totalItem += CurrentCartState[item];
       }
     }
     return totalItem;
   }
 
-  const mydata = {getTotalCartItems, getTotalCartAmount, all_product, addToCart, CurrentCartState, removeToCart };
+  const mydata = { getTotalCartItems, getTotalCartAmount, all_product, addToCart, CurrentCartState, removeToCart };
 
   return (
     <ShopContext.Provider value={mydata}>{props.children}</ShopContext.Provider>
